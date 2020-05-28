@@ -120,6 +120,6 @@ app=Flask(__name__)
 def hell_world():
     if request.method == "POST":
         mainapp()
-    return render_template("index.html")
+    return render_template("https://codeswithnaitik.github.io/drs/templates/index.html")
 app.run(debug=True)
     
